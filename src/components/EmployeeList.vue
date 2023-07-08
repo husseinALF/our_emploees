@@ -4,7 +4,7 @@
       <div
         v-for="employee in employees"
         :key="employee.id"
-        class="border-gray-600 border-2 text-center px-8 py-6 bg-teal-400"
+        class="border-gray-600 border-2 text-center px-8 py-6 bg-teal-400 rounded-2xl"
       >
         <div>
           <img
@@ -14,7 +14,7 @@
           />
         </div>
         <div>
-          <p class="text-slate-800">
+          <p class="text-slate-800 font-bold">
             {{ employee.first_name }} {{ employee.last_name }}
           </p>
           <a
